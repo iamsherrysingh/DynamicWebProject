@@ -22,12 +22,8 @@ public class ReverseCheckServlet extends HttpServlet
 		{
 			out.println("The strings are NOT reverse of each other");
 		}
-		
 		System.out.println("Printing something to console");   //Printing to console
-		
-		
-		
-		
-	}
 
+	}
 }
+
