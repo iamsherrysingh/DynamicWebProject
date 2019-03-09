@@ -16,6 +16,7 @@ public class AddServlet extends HttpServlet
 		
 		System.out.println("Result:"+k);   //Printing to console
 		
+		
 		PrintWriter out=res.getWriter();
 		out.println("Result is "+k);
 		
