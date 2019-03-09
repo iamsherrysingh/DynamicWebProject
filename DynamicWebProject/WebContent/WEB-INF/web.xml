@@ -12,7 +12,7 @@
   
   <servlet>
   <servlet-name>abc</servlet-name>
-  <servlet-class>com.sehaj.AddServlet</servlet-class>
+  <servlet-class>com.sehaj.ReverseCheckServlet</servlet-class>
   </servlet>
   
   

@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class AddServlet extends HttpServlet 
+public class ReverseCheckServlet extends HttpServlet 
 {
 	public void service(HttpServletRequest req, HttpServletResponse res) throws IOException
 	{
@@ -23,7 +23,7 @@ public class AddServlet extends HttpServlet
 			out.println("The strings are NOT reverse of each other");
 		}
 		
-		System.out.println(out.toString().toString());   //Printing to console
+		System.out.println("Printing something to console");   //Printing to console
 		
 		
 		
