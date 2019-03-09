@@ -10,15 +10,23 @@ public class AddServlet extends HttpServlet
 {
 	public void service(HttpServletRequest req, HttpServletResponse res) throws IOException
 	{
-		int i =Integer.parseInt(req.getParameter("num1"));
-		int j =Integer.parseInt(req.getParameter("num2"));
-		int k =i+j;
-		
-		System.out.println("Result:"+k);   //Printing to console
-		
-		
+		StringBuilder i =new StringBuilder(req.getParameter("input1"));
+		StringBuilder j =new StringBuilder(req.getParameter("input2"));
 		PrintWriter out=res.getWriter();
-		out.println("Result is "+k);
+		System.out.println(i.toString()+"    "+j.toString());
+		if(i.toString().equals(j.reverse().toString()))
+		{
+			out.println("The strings ARE reverse of each other");
+		}
+		else
+		{
+			out.println("The strings are NOT reverse of each other");
+		}
+		
+		System.out.println(out.toString().toString());   //Printing to console
+		
+		
+		
 		
 	}
 
