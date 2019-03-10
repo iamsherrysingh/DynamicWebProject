@@ -1,5 +1,5 @@
 # DynamicWebProject
-Nothing groundbreaking here.
+Nothing special here.
 Just started learning Dynamic Web Projects.
 Started working with servlets.
 Will add MySql functionality with Hibernate.
