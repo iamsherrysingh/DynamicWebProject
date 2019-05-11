@@ -1,4 +1,7 @@
-# DynamicWebProject
+Status: Abandoned. 
+
+This is a very basic servlet implementation.
+
 Nothing special here.
 Just started learning Dynamic Web Projects.
 Started working with servlets.
